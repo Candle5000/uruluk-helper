@@ -21,7 +21,6 @@ foreach (glob("img-src/*.png") as $filepath) {
 			$srcY += $pixelY;
 			$y++;
 		}
-		echo $srcX . "\n";
 		$srcX += $pixelX;
 		$x++;
 		$srcY = $startY;
